@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body{
+    background:linear-gradient(to right,rgb(60, 60, 134), pink)
+}
+#layout{
+    width:100%;
+    height: 100vh;
+}
+#left{
+    width: 49%;
+    height:600px;
+   
+    float:left;
+}
+#right{
+    width: 49%;
+    height:600px;
+    padding-top:80px;
+    float:right;
+}
+
+h1{
+    padding-left:20px;
+    padding-top:10px;
+}
+h3{
+    padding-left:20px;
+    padding-top:10px;
+}
+h4{
+    display:inline-block;
+    padding-right: 88px;
+    padding-top:10px;
+}
